@@ -76,13 +76,17 @@ button {
 	color: #43433d;
 	padding: 15px 32px;
 	text-align: center;
-	text-decoration: bold;
+	/*text-decoration: bold;*/
+	text-decoration: none;
 	display: inline-block;
 	font-size: 30px;
 	font-family: Times New Roman;
 	font-weight: bold;
 }
 
+a { 
+	text-decoration: none;
+}
 </style>
 
 	
