@@ -1,12 +1,16 @@
 <!doctype html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet"> </link?
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> </title>
 	<style>
 body {
 	font-family:'Arbutus Slab';
 	font-size:20px;
-	width:1000px;
+	//width:1000px;
+	margin-top: 120px;
+	margin-left: 0;
+	margin-right: 0;
 }
 h1 {
 	font-size:40px;
@@ -19,28 +23,51 @@ h2 {
 	color:maroon;
 }
 .header {
-	width:1000px;
+	width: 100%;
 	background-color:#9A1D03;
 	color:#DFCFCC;
 	font-weight:bold;
 	font-size:100px;
 	line-height:150px;
 	text-align:center;
-	margin-bottom:10px;
+	margin: 0;
+	padding 0;
+	position: relative;
+	box-sizing: border-box;
+	position: absolute;
+	//margin-bottom:10px;
+	left: 0;
+	top: 0;
 }
 .main {
 	position:relative;
 	height:600px;
+	margin-bottom: 0;
 	margin-bottom:10px;
+	margin-auto;
 }
 .mainleft {
 	position:absolute;
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	text-align:center;
-	padding:10px;
-	width:280px;
+	//margin: 0;
+	padding 0;
+	//margin-auto;
+	margin-left: 0;
+	margin-top: 100px;
+	//width: 50%;
+	//height 50%;
+	//padding:10px;
+	//width:280px;
 	height:580px;
+	list-style: none;
+	position: absolute;
+	//padding: 10px 20px; 
+    bottom:0;
+    width: 100%;
+	box-sizing: border-box;
+	left: 0;
 }
 .mainright {
 	background-color:#DFCFCC;
@@ -48,23 +75,32 @@ h2 {
 	padding:10px;
 }
 .footer {
-	width:1000px;
-	font-size:20px;
-	line-height:50px;
+	width:100%;
+	margin-bottom: 0;
+	height: auto;
+	bottom: 10;
+	left: 0;
+	font-size:25px;
+	line-height:60px;
 	text-align:center;
+	font-weight:bold;
 	background-color:#9A1D03;
 	color:#FAEBD7;
+	position: absolute;
+	//padding: 10px 20px;
+	box-sizing: border-box;
+	
 }
 img.right {
 	float:right;
 	text-align:top;
-	width:466px;
-	height:466px;
+	width:641px;
+	height:641px;
 	margin-left:10px;
 }
 img {
-	width:466px;
-	height:466px;
+	width:641px;
+	height:641px;
 	margin:10px;
 	
 }
@@ -72,21 +108,26 @@ button {
 	background-color: #f44336; /* Red */
 	/* border: none; */
 	border-radius: 12px;
-	width: 485px;
+	width: 661px;
 	color: #43433d;
 	padding: 15px 32px;
 	text-align: center;
-	/*text-decoration: bold;*/
-	text-decoration: none;
+	text-decoration: bold;
 	display: inline-block;
 	font-size: 30px;
 	font-family: Times New Roman;
 	font-weight: bold;
 }
 
-a { 
-	text-decoration: none;
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	margin: 0;
 }
+
 </style>
 
 	
