@@ -1,13 +1,14 @@
-<!doctype html>
+/*<!doctype html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet"> </link?
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> </title>
 	<style>
+*/
 body {
 	font-family:'Arbutus Slab';
 	font-size:20px;
-	//width:1000px;
+	/*width:1000px;*/
 	margin-top: 120px;
 	margin-left: 0;
 	margin-right: 0;
@@ -31,11 +32,11 @@ h2 {
 	line-height:150px;
 	text-align:center;
 	margin: 0;
-	padding 0;
+	padding: 0;
 	position: relative;
 	box-sizing: border-box;
-	position: absolute;
-	//margin-bottom:10px;
+	/*position: absolute; */
+	/*margin-bottom:10px;*/
 	left: 0;
 	top: 0;
 }
@@ -44,26 +45,26 @@ h2 {
 	height:600px;
 	margin-bottom: 0;
 	margin-bottom:10px;
-	margin-auto;
+	margin-bottom: auto;
 }
 .mainleft {
 	position:absolute;
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	text-align:center;
-	//margin: 0;
-	padding 0;
-	//margin-auto;
+	/*margin: 0; */
+	padding: 0;
+	/*margin-auto; */
 	margin-left: 0;
 	margin-top: 100px;
-	//width: 50%;
-	//height 50%;
-	//padding:10px;
-	//width:280px;
+	/*width: 50%; */
+	/*height 50%; */
+	/*padding:10px; */
+	/*width:280px; */
 	height:580px;
 	list-style: none;
 	position: absolute;
-	//padding: 10px 20px; 
+	/* padding: 10px 20px; */
     bottom:0;
     width: 100%;
 	box-sizing: border-box;
@@ -87,12 +88,21 @@ h2 {
 	background-color:#9A1D03;
 	color:#FAEBD7;
 	position: absolute;
-	//padding: 10px 20px;
+	/* padding: 10px 20px; */
 	box-sizing: border-box;
 	
 }
-img.right {
+.img-right {
 	float:right;
+	/*right: 20px;*/
+	text-align:right;
+	width:641px;
+	height:641px;
+	margin-left:10px;
+}
+
+.img-left {
+	float:left;
 	text-align:top;
 	width:641px;
 	height:641px;
@@ -119,8 +129,8 @@ button {
 	font-weight: bold;
 }
 
-html, body, {
-    position:fixed;
+html, body {
+    /*position:fixed;*/
     top:0;
     bottom:0;
     left:0;
@@ -128,9 +138,11 @@ html, body, {
 	margin: 0;
 }
 
+/*
 </style>
 
 	
 	
 	
 </head>
+*/
