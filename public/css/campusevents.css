@@ -1,0 +1,120 @@
+<!doctype html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet"> </link?
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/css/emoji.css" rel="stylesheet"> </link>
+
+	<title> </title>
+	<style>
+hr { 
+display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+border-width: 4px;
+hr color="#5B5A5D"
+}
+
+body {
+	font-family:'Arbutus Slab';
+	font-size:20px;
+	//width:1000px;
+	margin-top: 120px;
+	margin-left: 0;
+	margin-right: 0;
+}
+h1 {
+	font-size:40px;
+	font-weight:bold;
+	color:maroon;
+	margin-left: 0;
+	margin-right: 0;
+}
+h2 {
+	font-size:24px;
+	font-weight:bold;
+	color:maroon;
+}
+h3 {
+	font-size:24px;
+	font-weight:bold;
+	color:maroon;
+}
+.header {
+	width:100%;
+	background-color:#9A1D03;
+	color:#DFCFCC;
+	font-weight:bold;
+	font-size:90px;
+	line-height:150px;
+	text-align:center;
+	margin-bottom:10px;
+	margin: 0;
+	padding 0;
+	position: relative;
+	box-sizing: border-box;
+	position: absolute;
+	//margin-bottom:10px;
+	left: 0;
+	top: 0;	
+}
+.main {
+	position:relative;
+	height:600px;
+	marin-top10px;
+	margin-bottom:10px;
+	bottom: 0;
+}
+.mainleft {
+	position:absolute;
+	background-color:#DFCFCC;
+	color:#1A0A06;
+	text-align:center;
+	padding:10px;
+	width:280px;
+	height:580px;
+}
+.mainright {
+	background-color:#DFCFCC;
+	color:#1A0A06;
+	padding:10px;
+}
+.footer {
+	width:1000px;
+	font-size:20px;
+	line-height:50px;
+	text-align:center;
+	background-color:#9A1D03;
+	color:#FAEBD7;
+}
+img.right {
+	float:right;
+	text-align:top;
+	width:466px;
+	height:466px;
+	margin-left:10px;
+}
+img {
+	width:466px;
+	height:466px;
+	margin:10px;
+	
+}
+button {
+	background-color: #f44336; /* Red */
+	/* border: none; */
+	border-radius: 12px;
+	width: 485px;
+	color: #43433d;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: bold;
+	display: inline-block;
+	font-size: 30px;
+	font-family: Times New Roman;
+	font-weight: bold;
+}
+
+</style>
