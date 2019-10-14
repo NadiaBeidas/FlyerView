@@ -29,12 +29,18 @@
 		Please select a category to join in an insightful discussion with your peers:
 		</h2>
 		<p>
-		<button  Campus events= "button" type="button">
-		<a href="/html/campusevents.html"> Post campus events </a>
-		</button>
-		<button  Current events= "button" type="button">
-		<a href="/html/currentevents.html"> Post current events </a>
-		</button>
+			<form action="/campusevents">
+				<button  Campus events= "button" type="submit">
+						Post campus events
+					<!--<a href="/html/campusevents.ejs"> Post campus events </a> -->
+				</button>
+			</form>
+			<form action="/currentevents">
+				<button  Current events= "button" type="submit">
+						Post current events
+					<!-- <a href="/html/currentevents.ejs"> Post current events </a> -->
+				</button>
+			</form>
 		</p>
 	<div style="display:flex;flex-wrap:wrap;">
 		<div>
