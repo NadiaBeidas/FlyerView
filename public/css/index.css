@@ -90,12 +90,14 @@ h2 {
 	position: absolute;
 	/* padding: 10px 20px; */
 	box-sizing: border-box;
-	
+
 }
 .img-right {
 	float:right;
 	/*right: 20px;*/
 	text-align:right;
+  /*width: 40%;*/
+	background-position: 50% 50%;
 	width:641px;
 	height:641px;
 	margin-left:10px;
@@ -104,6 +106,7 @@ h2 {
 .img-left {
 	float:left;
 	text-align:top;
+	background-position: 50% 50%;
 	width:641px;
 	height:641px;
 	margin-left:10px;
@@ -112,7 +115,7 @@ img {
 	width:641px;
 	height:641px;
 	margin:10px;
-	
+
 }
 button {
 	background-color: #f44336; /* Red */
@@ -145,8 +148,8 @@ html, body {
 /*
 </style>
 
-	
-	
-	
+
+
+
 </head>
 */

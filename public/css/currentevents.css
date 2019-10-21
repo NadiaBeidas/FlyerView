@@ -1,5 +1,5 @@
 
-hr { 
+hr {
 display: block;
 margin-top: 0.5em;
 margin-bottom: 0.5em;
@@ -8,8 +8,8 @@ margin-right: auto;
 border-style: inset;
 border-width: 4px;
 color: #5B5A5D;
-}	
-	
+}
+
 body {
 	font-family:'Arbutus Slab';
 	font-size:20px;
@@ -49,7 +49,7 @@ h3 {
 	position: absolute;
 	/*margin-bottom:10px;*/
 	left: 0;
-	top: 0;	
+	top: 0;
 }
 .main {
 	position:relative;
@@ -89,7 +89,7 @@ img {
 	width:466px;
 	height:466px;
 	margin:10px;
-	
+
 }
 button {
 	background-color: #f44336; /* Red */
@@ -104,4 +104,23 @@ button {
 	font-size: 30px;
 	font-family: Times New Roman;
 	font-weight: bold;
+}
+
+.footer {
+	width:100%;
+	margin-bottom: 0;
+	height: auto;
+	bottom: 5;
+	top 5;
+	left: 0;
+	font-size:30px;
+	line-height:50px;
+	text-align:center;
+	font-weight:bold;
+	background-color:#331159;
+	color:#DFCFCC;
+	position: absolute;
+	/* padding: 10px 20px; */
+	box-sizing: border-box;
+
 }
