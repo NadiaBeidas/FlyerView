@@ -136,6 +136,10 @@ form {
 	display: inline-block;
 }
 
+.twitter-timeleine {
+	display: inline-block;
+}
+
 html, body {
     /*position:fixed;*/
     top:0;
