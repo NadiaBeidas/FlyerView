@@ -12,6 +12,8 @@ body {
 	margin-top: 120px;
 	margin-left: 0;
 	margin-right: 0;
+	/*padding-right: 40px;*/
+	/*padding-left: 20px;*/
 }
 h1 {
 	font-size:40px;
@@ -19,7 +21,7 @@ h1 {
 	color:maroon;
 }
 h2 {
-	font-size:24px;
+	font-size:40px;
 	font-weight:bold;
 	color:maroon;
 }
@@ -43,9 +45,14 @@ h2 {
 .main {
 	position:relative;
 	height:600px;
+	margin-left: 10px;
 	margin-bottom: 0;
 	margin-bottom:10px;
 	margin-bottom: auto;
+	/*padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20 px;
+	padding-top: 20px;*/
 }
 .mainleft {
 	position:absolute;
@@ -54,8 +61,9 @@ h2 {
 	text-align:center;
 	/*margin: 0; */
 	padding: 0;
+	/*padding-left: 40px;*/
 	/*margin-auto; */
-	margin-left: 0;
+	margin-left: 10px;
 	margin-top: 100px;
 	/*width: 50%; */
 	/*height 50%; */
@@ -74,7 +82,9 @@ h2 {
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	padding:10px;
+
 }
+
 .footer {
 	width:100%;
 	margin-bottom: 0;
@@ -136,12 +146,20 @@ form {
 	display: inline-block;
 }
 
-.twitter-timeleine {
+.twitter-timeline {
 	display: inline-block;
+	margin: auto;
+	/*padding-left: 10px;*/
+	/*padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding: 0 16px 16px 16px;*/
 }
 
 html, body {
     /*position:fixed;*/
+		/*padding-left: 10px;*/
     top:0;
     bottom:0;
     left:0;

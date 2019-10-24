@@ -131,3 +131,30 @@ button {
 	box-sizing: border-box;
 
 }
+
+.img-right {
+	float:right;
+	/*right: 20px;*/
+	text-align:top;
+  /*width: 40%;*/
+	background-position: 50% 50%;
+	width:641px;
+	height:641px;
+	margin-left:59px;
+}
+
+/*img.right {
+	float:right;
+	text-align:top;
+	width:466px;
+	height:466px;
+	margin-left:10px;
+}*/
+
+img {
+	width:641px;
+	height:641px;
+	margin-right:59px;
+	margin-top:10px;
+  margin-bottom:10px;
+}
