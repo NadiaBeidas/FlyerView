@@ -158,3 +158,30 @@ img {
 	margin-top:10px;
   margin-bottom:10px;
 }
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  float: right;
+}
+
+
+.full-width {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  .justify-content-center {
+    display: flex;
+    align-self: center;
+    width: 100%;
+  }
+  .lead.emoji-picker-container {
+    width: 300px;
+    display: block;
+    input {
+      width: 100%;
+      height: 50px;
+    }
+  }
+}
