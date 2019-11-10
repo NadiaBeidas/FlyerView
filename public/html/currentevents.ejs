@@ -1,5 +1,6 @@
 <!doctype html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet"> </link>
 <title> </title>
 <link rel="stylesheet" href="/css/currentevents.css">
@@ -17,7 +18,7 @@
 		<h1> Let's discuss the world around us! </h1>
 		<p> Many topics concern us Flyers! Please comment on a post or start a new one. Discuss any local, state, national, or global issue.
 		</p>
-		<p><img src="/images/White_House.jpg" style="float:right;width:1320px;height:570px;">
+		<p><img src="/images/White_House.jpg" style="float:right;width:1460px;height:500px;">
 	</p>
 		<h1> Existing posts: </h1>
 		<h2> Election season will soon be upon us: </h2>
@@ -46,12 +47,18 @@
 							<option
 						<span style='font-size:25px;'>&#129505;</span></a></option>
 						/div
-<form action="/action_page.php">
+
+<form action="/campusevents" method="post">
+<input type="text" name="newPost"> <!-- required size = '45'-->
+
+<button type="submit" name="button">Post</button>
+
+<!--<form action="/action_page.php">
 <textarea name="comment" rows = "20"
 cols = "178">
-</textarea>
+</textarea>-->
 <br>
-<input type="submit">
+<!--<input type="submit">-->
 </form>
 <p><img src="/images/Debt.jpg" style="float:right;width:650px;height:240px;"></p>
 		<h2> Debt is an area of great concern to college students: </h2>
@@ -78,14 +85,19 @@ cols = "178">
 							<option
 						<span style='font-size:25px;'>&#129505;</span></a></option>
 						/div
-		  <form action="/action_page.php">
-			<textarea name="comment" rows = "20"
+
+			<form action="/campusevents" method="post">
+				<input type="text" name="newPost"> <!-- required size = '45'-->
+
+				<button type="submit" name="button">Post</button>
+		  <!--<form action="/action_page.php">-->
+			<!--<textarea name="comment" rows = "20"
 			cols = "178">
-			</textarea>
+		</textarea>-->
 			<br>
-			<input type="submit">
+			<!--<input type="submit">-->
 			</form>
-<p><img src="/images/United_Nations.jpg" style="float:right;width:1310px;height:500px;"></p>
+<p><img src="/images/United_Nations.jpg" style="float:right;width:1460px;height:500px;"></p>
 			<h2> Changes in the world around us: </h2>
 			<p>
 			In the United Nations representatives of countries discuss glocal issues of concern.
@@ -111,12 +123,18 @@ cols = "178">
 				<option
 			<span style='font-size:25px;'>&#129505;</span></a></option>
 			/div
-		<form action="/action_page.php">
-		<textarea name="comment" rows = "20"
+
+		<form action="/campusevents" method="post">
+		<!--<form action="/action_page.php">-->
+	<!--	<textarea name="comment" rows = "20"
 		cols = "178">
-		</textarea>
+	</textarea>-->
+		<input type="text" name="newPost"> <!-- required size = '45'-->
+
+		<button type="submit" name="button">Post</button>
+		</form>
 		<br>
-		<input type="submit">
+		<!--<input type="submit">-->
 		</form>
 			<!--<p>
 				<br>
@@ -131,8 +149,8 @@ cols = "178">
 		<!--<h1> You've seen a few posts. It's time to create your own post! </h1>
 		<p> Would you like to start a topic of conversation with your fellow Flyers?  Why not lead the conversation?
 		Submit your post below:-->
-<p><img src="/images/Switzerland.jpg" style="float:right;width:1310px;height:400px;"></p>
-		<h2>You've seen a few posts. It's time to create your own! </h2>
+<p><img src="/images/Switzerland.jpg" style="float:right;width:1460px;height:500px;"></p>
+		<h1>You've seen a few posts. It's time to create your own! </h1>
 		<div class= "dropdown">
 		Create a post below and select an emoji!
 			<select name="React">
@@ -151,12 +169,16 @@ cols = "178">
 			/div
 
 
-		<form action="/action_page.php">
+		<form action="/campusevents" method="post">
+		<!--<form action="/action_page.php">
 			<textarea name="comment" rows = "20"
 			cols = "178">
-			</textarea>
+		</textarea>-->
 			<br>
-			<input type="submit">
+			<!--<input type="submit">-->
+			<input type="text" name="newPost"> <!-- required size = '45'-->
+
+			<button type="submit" name="button">Post</button>
 			</form>
 			<p>
 				<br>

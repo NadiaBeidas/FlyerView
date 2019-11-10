@@ -2,7 +2,8 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet">
 	</link>
@@ -27,7 +28,7 @@
 		<p> Many topics concern us Flyers! Please comment on a post or start a new one. Tell us the latest about what's
 			happening on campus.
 		</p>
-		<p><img src="/images/Science-Center.jpg" style="float:right;width:1270px;height:400px;">
+		<p><img src="/images/Science-Center.jpg" style="float:right;width:1420px;height:500px;">
 		</p>
 		<h1> Existing posts: </h1>
 		<h2> The struggle to find a parking space: </h2>
@@ -70,17 +71,21 @@
 				<option <span style='font-size:25px;'>&#129505;</span></a></option>
 		</div>
 
-		<form action="/action_page.php">
+		<form action="/campusevents" method="post">
+		<!--<form action="/action_page.php">-->
 
 			<h2>Share your thoughts about this post: </h2>
-			<textarea name="comment" rows="20" cols="178">
-			</textarea>
+			<input type="text" name="newPost"> <!-- required size = '45'-->
+
+			<button type="submit" name="button">Post</button>
+			<!--<textarea name="comment" rows="20" cols="178">
+			</textarea>-->
 			<br>
 
 
-
+		<!--<input type="submit">-->
 		</form>
-		<p><img src="/images/Welcome.jpg" style="float:right;width:1000px;height:300px;">
+		<p><img src="/images/Welcome.jpg" style="float:right;width:700px;height:300px;">
 		</p>
 
 
@@ -120,16 +125,19 @@
 				<option <span style='font-size:25px;'>&#128514;</span></option>
 				<option <span style='font-size:25px;'>&#129505;</span></a></option>
 		</div>
-
-		<form action="/action_page.php">
+		<form action="/campusevents" method="post">
+	<!--<form action="/action_page.php">-->
 
 			<h2>Share your thoughts about this post: </h2>
-			<textarea name="comment" rows="20" cols="178">
-				</textarea>
+			<input type="text" name="newPost"> <!-- required size = '45'-->
+
+			<button type="submit" name="button">Post</button>
+			<!--<textarea name="comment" rows="20" cols="178">
+			</textarea>-->
 			<br>
 
 
-
+	<!--	<input type="submit">-->
 		</form>
 		<!--
 	<form action="/action_page.php">
@@ -157,16 +165,17 @@ window.onclick = function(e) {
 </script>
 	</form>-->
 		</script>
-		<p><img src="/images/Italy.jpg" style="float:right;width:1270px;height:300px;">
+		<p><img src="/images/Italy.jpg" style="float:right;width:1420px;height:400px;">
 		</p>
 		<p>
 			<br>
 		</p>
 		<h2> Travel to new places and study abroad: </h2>
 		<p>
-			Studying in another country is a beneficial and rewarding experience. Have you spent time abroad? Tell us
-			about it.
-			Where did you travel to? What was the experience like? Share your positive and negative adventures.
+			Studying in another country is a beneficial and rewarding experience. Have you spent time abroad?
+			Tell us about it.
+			Where did you travel to? What was the experience like?
+			Share your positive and negative adventures.
 			Would you recommend others to study overseas? If you haven't studied abroad, would you consider it?
 			Why or why not? Please share your thoughts and concerns.
 		</p>
@@ -183,15 +192,18 @@ window.onclick = function(e) {
 				<option <span style='font-size:25px;'>&#129505;</span></a></option>
 		</div>
 
-		<form action="/action_page.php">
-
+		<!--<form action="/action_page.php">-->
+		<form action="/campusevents" method="post">
 			<h2>Share your thoughts about this post: </h2>
-			<textarea name="comment" rows="20" cols="178">
+			<input type="text" name="newPost"> <!-- required size = '45'-->
+
+			<button type="submit" name="button">Post</button>
+			<!--<textarea name="comment" rows="20" cols="178">-->
 		</textarea>
 			<br>
 
-
-
+			<!--button submit
+		<!--<input type="submit">-->
 		</form>
 		<!--
 	<div class="field">
@@ -241,16 +253,20 @@ cols = "178">
 	<span style='font-size:25px;'>&#128562;</span>
 	<span style='font-size:25px;'>&#128514;</span>
 	<span style='font-size:25px;'>&#129505;</span>-->
-		<p><img src="/images/Main_Campus.jpg" style="float:right;width:1270px;height:400px;">
+		<p><img src="/images/Main_Campus.jpg" style="float:right;width:1420px;height:400px;">
 		</p>
 		<p>
 			<br>
+
+	</p>
+			<!--<h1> You've seen a few posts. It's time to create your own post! </h1>-->
+
+
 		</p>
 		<h1> You've seen a few posts. It's time to create your own post! </h1>
 		<p> Would you like to start a topic of conversation with your fellow Flyers? Why not lead the conversation?
 			Submit your post below:
-
-			<!--Emojis are unicodes, so it wont have much problem showing in the mobile or mails-->
+		<!--Emojis are unicodes, so it wont have much problem showing in the mobile or mails-->
 
 			<!--		<div class="container full-width">
 			      <div class="row justify-content-center">
@@ -293,9 +309,17 @@ cols = "178">
 			<!--<script src="lib/js/emoji-picker.js"></script>-->
 			<!--<script src="emojiPicker.js"></script>-->
 			<!--window.EmojiPicker.init()-->
-			<h2>You've seen a few posts! It's time to create your own!</h2>
-			<!--<div class="dropdown">
+
+			<!--<p> Would you like to start a topic of conversation with your fellow Flyers? Why not lead the conversation?
+			Submit your post below:-->
+			<!--<h1>You've seen a few posts! It's time to create your own!</h1>
+			<div class= "dropdown">
+			Create a post below and select an emoji!
+=======
+			<h2>You've seen a few posts! It's time to create your own!</h2>-->
+			<div class="dropdown">
 				Create a post below and select an emoji!
+
 				<select name="React">
 					<option value=<span style='font-size:25px;'>&#128515;</span></option>
 					<option value=<span style='font-size:25px;'>&#128544;</span></option>
@@ -303,20 +327,26 @@ cols = "178">
 					<option <span style='font-size:25px;'>&#128562;</span></option>
 					<option <span style='font-size:25px;'>&#128514;</span></option>
 					<option <span style='font-size:25px;'>&#129505;</span></a></option>
-			</div> -->
+			</div>
 
 			<form action="/campusevents" method="post">
 
-				<!--<h2>Share your thoughts about this post: </h2> -->
-				<!--<textarea name="comment" rows = "20"
+				<h2>Share your thoughts about this post: </h2>
+				<!--
+				<textarea name="comment" rows = "20"
 				cols = "178">
-				</textarea>
-				<br>-->
-				<input type="text" name="newPost">
+			</textarea>-->
+				<br>
+				<input type="text" name="newPost"> <!-- required size = '45'-->
 
-				<button type="submit" name="button">post</button>
+				<button type="submit" name="button">Post</button>
 
+				<p>
+					<br>
+				</p>
+					<!--	<input type="submit">-->
 			</form>
+
 			<!--
 			<input data-emojiable="true" type="text" class="form-control">
 			<h2>Textarea</h2>
@@ -342,7 +372,7 @@ cols = "178">
 <% for(var i=0; i<postList.length; i++) { %>
 	<p> <%= postList[i] %> </p>
 
-<% } %>	
+<% } %>
 			<div class="footer">
 				"Deep conversations with the right people are priceless."
 			</div>
