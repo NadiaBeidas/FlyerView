@@ -101,8 +101,8 @@ img {
 button {
 	background-color: #f44336; /* Red */
 	/* border: none; */
-	border-radius: 12px;
-	width: 485px;
+	border-radius: 6px;
+	width: 160px;
 	color: #43433d;
 	padding: 15px 32px;
 	text-align: center;
@@ -141,6 +141,7 @@ button {
 	width:641px;
 	height:641px;
 	margin-left:59px;
+	/*max-width: 100%;*/
 }
 
 /*img.right {
@@ -152,12 +153,38 @@ button {
 }*/
 
 img {
+	/*width: auto;
+	height: auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;*/
 	width:641px;
 	height:641px;
 	margin-right:59px;
 	margin-top:10px;
   margin-bottom:10px;
+	/*max-width: 100%;*/
 }
+
+input {
+  font-size: 20px;
+	height:350px;
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+ box-sizing: border-box;
+}
+.narrow-font {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.wide-font {
+  font-family: 'Diplomata', cursive;
+}
+.set-width {
+  width: 300px;
+}
+
+
 
 .dropdown-menu {
   position: absolute;
@@ -184,4 +211,8 @@ img {
       height: 50px;
     }
   }
+
+
+
+
 }

@@ -84,19 +84,39 @@ img.right {
 	width:466px;
 	height:466px;
 	margin-left:10px;
+	/*max-width: 100%;*/
 }
 img {
 	width:466px;
 	height:466px;
 	margin:10px;
-
+	/*max-width: 100%;*/
 }
+
+input {
+  font-size: 20px;
+	height:350px;
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+ box-sizing: border-box;
+}
+.narrow-font {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.wide-font {
+  font-family: 'Diplomata', cursive;
+}
+.set-width {
+  width: 300px;
+}
+
 button {
-	background-color: #f44336; /* Red */
+	background-color: #8B07A2; /* Purple */
 	/* border: none; */
-	border-radius: 12px;
-	width: 485px;
-	color: #43433d;
+	border-radius: 6px;
+	width: 160px;
+	color: #C2BBBB;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: bold;
