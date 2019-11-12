@@ -18,21 +18,25 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 }
+
 h1 {
 	font-size:40px;
 	font-weight:bold;
 	color:purple;
 }
+
 h2 {
 	font-size:24px;
 	font-weight:bold;
 	color:purple;
 }
+
 h3 {
 	font-size:24px;
 	font-weight:bold;
 	color:purple;
 }
+
 .header {
 	width:100%;
 	background-color:#331159;
@@ -47,15 +51,18 @@ h3 {
 	position: relative;
 	box-sizing: border-box;
 	position: absolute;
-	/*margin-bottom:10px;*/
 	left: 0;
 	top: 0;
 }
+
 .main {
 	position:relative;
 	height:600px;
+	margin-top:10px;
 	margin-bottom:10px;
+	bottom: 0;
 }
+
 .mainleft {
 	position:absolute;
 	background-color:#DFCFCC;
@@ -65,11 +72,13 @@ h3 {
 	width:280px;
 	height:580px;
 }
+
 .mainright {
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	padding:10px;
 }
+
 .footer {
 	width:1000px;
 	font-size:20px;
@@ -78,19 +87,19 @@ h3 {
 	background-color:#9A1D03;
 	color:#331159;
 }
+
 img.right {
 	float:right;
 	text-align:top;
-	width:466px;
-	height:466px;
 	margin-left:10px;
-	/*max-width: 100%;*/
+	width:50%;
+	height:50%;
 }
+
 img {
-	width:466px;
-	height:466px;
+	width: 50%;
+	height: 50%;
 	margin:10px;
-	/*max-width: 100%;*/
 }
 
 input {
@@ -101,19 +110,21 @@ input {
   margin: 8px 0;
  box-sizing: border-box;
 }
+
 .narrow-font {
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
 .wide-font {
   font-family: 'Diplomata', cursive;
 }
+
 .set-width {
   width: 300px;
 }
 
 button {
-	background-color: #8B07A2; /* Purple */
-	/* border: none; */
+	background-color: #8B07A2;
 	border-radius: 6px;
 	width: 160px;
 	color: #C2BBBB;
@@ -140,7 +151,6 @@ button {
 	background-color:#331159;
 	color:#DFCFCC;
 	position: absolute;
-	/* padding: 10px 20px; */
 	box-sizing: border-box;
 
 }
