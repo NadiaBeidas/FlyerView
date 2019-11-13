@@ -26,7 +26,7 @@ var con = mysql.createConnection({
       if (err) throw err;
       console.log("it is nighttime");
     });
-  }); 
+  });
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
