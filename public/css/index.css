@@ -5,27 +5,27 @@
 	<title> </title>
 	<style>
 */
-body {
+body { /*Settings for the body section*/
 	font-family:'Arbutus Slab';
 	font-size:20px;
-	/*width:1000px;*/
 	margin-top: 120px;
 	margin-left: 0;
 	margin-right: 0;
-	/*padding-right: 40px;*/
-	/*padding-left: 20px;*/
 }
-h1 {
+
+h1 { /*Settings for the first headline*/
 	font-size:40px;
 	font-weight:bold;
 	color:maroon;
 }
-h2 {
+
+h2 { /*Settings for the second headline*/
 	font-size:40px;
 	font-weight:bold;
 	color:maroon;
 }
-.header {
+
+.header { /*Settings for the header section*/
 	width: 100%;
 	background-color:#9A1D03;
 	color:#DFCFCC;
@@ -37,55 +37,44 @@ h2 {
 	padding: 0;
 	position: relative;
 	box-sizing: border-box;
-	/*position: absolute; */
-	/*margin-bottom:10px;*/
 	left: 0;
 	top: 0;
 }
-.main {
+
+.main { /*Settings for the main section*/
 	position:relative;
 	height:600px;
 	margin-left: 10px;
 	margin-bottom: 0;
 	margin-bottom:10px;
 	margin-bottom: auto;
-	/*padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20 px;
-	padding-top: 20px;*/
 }
-.mainleft {
+
+.mainleft { /*Settings for the main left section*/
 	position:absolute;
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	text-align:center;
-	/*margin: 0; */
 	padding: 0;
-	/*padding-left: 40px;*/
-	/*margin-auto; */
 	margin-left: 10px;
 	margin-top: 100px;
-	/*width: 50%; */
-	/*height 50%; */
-	/*padding:10px; */
-	/*width:280px; */
 	height:580px;
 	list-style: none;
 	position: absolute;
-	/* padding: 10px 20px; */
     bottom:0;
     width: 100%;
 	box-sizing: border-box;
 	left: 0;
 }
-.mainright {
+
+.mainright { /*Settings for the main right section*/
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	padding:10px;
 
 }
 
-.footer {
+.footer { /*Settings for the footer section*/
 	width:100%;
 	margin-bottom: 0;
 	height: auto;
@@ -98,40 +87,37 @@ h2 {
 	background-color:#9A1D03;
 	color:#FAEBD7;
 	position: absolute;
-	/* padding: 10px 20px; */
 	box-sizing: border-box;
-
 }
-.img-right {
+
+.img-right { /*Settings for the image right section*/
 	float:right;
-	/*right: 20px;*/
 	text-align:right;
-  /*width: 40%;*/
 	background-position: 50% 50%;
-	width:641px;
-	height:641px;
+	width:718px;
+	height:710px;
 	margin-left:10px;
 }
 
-.img-left {
+.img-left { /*Settings for the image left section*/
 	float:left;
 	text-align:top;
 	background-position: 50% 50%;
-	width:641px;
-	height:641px;
+	width:718px;
+	height:710px;
 	margin-left:10px;
 }
-img {
+
+img { /*Settings for the image section*/
 	width:641px;
 	height:641px;
 	margin:10px;
 
 }
-button {
-	background-color: #f44336; /* Red */
-	/* border: none; */
+button { /*Settings for the button section*/
+	background-color: #f44336;
 	border-radius: 12px;
-	width: 661px;
+	width: 735px;
 	color: #43433d;
 	padding: 15px 32px;
 	text-align: center;
@@ -142,24 +128,16 @@ button {
 	font-weight: bold;
 }
 
-form {
+form { /*Settings for the form section*/
 	display: inline-block;
 }
 
-.twitter-timeline {
+.twitter-timeline { /*Settings for the Twitter section*/
 	display: inline-block;
 	margin: auto;
-	/*padding-left: 10px;*/
-	/*padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding: 0 16px 16px 16px;*/
 }
 
-html, body {
-    /*position:fixed;*/
-		/*padding-left: 10px;*/
+html, body { /*Settings for html, body*/
     top:0;
     bottom:0;
     left:0;
