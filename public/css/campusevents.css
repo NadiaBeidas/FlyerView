@@ -1,4 +1,4 @@
-hr {
+hr { /*Settings for horizontal line*/
 display: block;
 margin-top: 0.5em;
 margin-bottom: 0.5em;
@@ -9,7 +9,7 @@ border-width: 4px;
 color: #5B5A5D;
 }
 
-body {
+body { /*Settings for the body of the page*/
 	font-family:'Arbutus Slab';
 	font-size: 20px;
 	margin-top: 120px;
@@ -17,7 +17,7 @@ body {
 	margin-right: 0;
 }
 
-h1 {
+h1 { /*Settings for the first headline*/
 	font-size:40px;
 	font-weight:bold;
 	color:maroon;
@@ -25,19 +25,19 @@ h1 {
 	margin-right: 0;
 }
 
-h2 {
+h2 { /*Settings for the second headline*/
 	font-size:24px;
 	font-weight:bold;
 	color:maroon;
 }
 
-h3 {
+h3 { /*Settings for the third headline*/
 	font-size:24px;
 	font-weight:bold;
 	color:maroon;
 }
 
-.header {
+.header { /*Settings for the header*/
 	width:100%;
 	background-color:#9A1D03;
 	color:#DFCFCC;
@@ -55,7 +55,7 @@ h3 {
 	top: 0;
 }
 
-.main {
+.main { /*Settings for main*/
 	position:relative;
 	height:600px;
 	margin-top:10px;
@@ -63,7 +63,7 @@ h3 {
 	bottom: 0;
 }
 
-.mainleft {
+.mainleft { /*Settings for main left*/
 	position:absolute;
 	background-color:#DFCFCC;
 	color:#1A0A06;
@@ -73,13 +73,13 @@ h3 {
 	height:580px;
 }
 
-.mainright {
+.mainright { /*Settings for main right*/
 	background-color:#DFCFCC;
 	color:#1A0A06;
 	padding:10px;
 }
 
-.footer {
+.footer { /*Settings for the footer*/
 	width:1000px;
 	font-size:20px;
 	line-height:50px;
@@ -88,7 +88,7 @@ h3 {
 	color:#FAEBD7;
 }
 
-img.right {
+img.right { /*Settings for the right image*/
 	float:right;
 	text-align:top;
 	width:50%;
@@ -96,13 +96,13 @@ img.right {
 	margin-left:10px;
 }
 
-img {
+img { /*Settings for the image*/
 	width: 50%;
 	height: 50%;
 	margin:10px;
 }
 
-button {
+button { /*Settings for the button*/
 	background-color: #f44336; /* Red */
 	/* border: none; */
 	border-radius: 6px;
@@ -117,7 +117,7 @@ button {
 	font-weight: bold;
 }
 
-.footer {
+.footer { /*Settings for the footer*/
 	width:100%;
 	margin-bottom: 0;
 	height: auto;
@@ -134,7 +134,7 @@ button {
 	box-sizing: border-box;
 }
 
-.img-right {
+.img-right { /*Settings for image right*/
 	float:right;
 	text-align:top;
 	background-position: 50% 50%;
@@ -144,7 +144,7 @@ button {
 	margin-right:10px;
 }
 
-img {
+img { /*Settings for image*/
 	width:641px;
 	height:641px;
 	margin-right:59px;
@@ -153,7 +153,7 @@ img {
   margin-bottom:10px;
 }
 
-input {
+input { /*Settings for input*/
   font-size: 20px;
 	height:350px;
 	width: 100%;
@@ -162,15 +162,15 @@ input {
  box-sizing: border-box;
 }
 
-.narrow-font {
+.narrow-font { /*Settings for the narrow font*/
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.wide-font {
+.wide-font { /*Settings for the the wide font*/
   font-family: 'Diplomata', cursive;
 }
 
-.set-width {
+.set-width { /*Settings for set width*/
   width: 300px;
 }
 
