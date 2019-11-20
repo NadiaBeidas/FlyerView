@@ -2,7 +2,8 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Settings-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Settings-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet">
 	</link>
@@ -12,22 +13,25 @@
 	<title> </title>
 </head>
 
-<body>
-	<div class="header"> <!--Headline for the campus page-->
+<body class="mainright">
+	<div class="header">
+		<!--Headline for the campus page-->
 		Campus conversation
 	</div>
 	<hr>
 	</hr>
-	<div class="mainright">
+	<!-- <div class="mainright"> -->
 		<h1> Let's discuss campus events! </h1>
 
 		<p> Many topics concern us Flyers! Please comment on a post or start a new one. Tell us the latest about what's
 			happening on campus.
 		</p>
-		<p><img src="/images/Science-Center.jpg" style="float:right;width:1460px;height:500px;"><!--Photo for the Science Center-->
+		<p><img src="/images/Science-Center.jpg" style="float:right;width:1460px;height:500px;">
+			<!--Photo for the Science Center-->
 		</p>
 		<h1> Existing posts: </h1> <!-- This section begins the existing posts-->
-		<h2> The struggle to find a parking space: </h2> <!--The first post discusses parking-->
+		<h2> The struggle to find a parking space: </h2>
+		<!--The first post discusses parking-->
 		<p> Finding parking is an issue that concerns students. It is difficult to find parking close to classes,
 			unless one takes an 8 a.m. class. Students often leave an hour early to find parking. Or if students leave
 			on time or late, they often discover that finding a parking spot is extremely difficult. Sometimes this
@@ -37,28 +41,41 @@
 			situation? What do you do to find a place to park? Please discuss.
 		</p>
 
-		<h2>Share your thoughts about this post: </h2><!--Response to the parking post-->
-		<div class="dropdown"><!--Dropdown menu for emoji selection-->
+		<h2>Share your thoughts about this post: </h2>
+		<!--Response to the parking post-->
+		<div class="dropdown">
+			<!--Dropdown menu for emoji selection-->
 			React to this post! Comment below and select an emoji!
 			<select name="React">
-				<option value=<span style='font-size:25px;'>&#128515;</span></option><!--Smile emoji-->
-				<option value=<span style='font-size:25px;'>&#128544;</span></option><!--Frown emoji-->
-				<option <span style='font-size:25px;'>&#128546;</span></option><!--Sad emoji-->
-				<option <span style='font-size:25px;'>&#128562;</span></option><!--Surprise emoji-->
-				<option <span style='font-size:25px;'>&#128514;</span></option><!--Laugh emoji-->
-				<option <span style='font-size:25px;'>&#129505;</span></a></option><!--Heart emoji-->
-		</div><!--Ends emoji section-->
+				<option value=<span style='font-size:25px;'>&#128515;</span></option>
+				<!--Smile emoji-->
+				<option value=<span style='font-size:25px;'>&#128544;</span></option>
+				<!--Frown emoji-->
+				<option <span style='font-size:25px;'>&#128546;</span></option>
+				<!--Sad emoji-->
+				<option <span style='font-size:25px;'>&#128562;</span></option>
+				<!--Surprise emoji-->
+				<option <span style='font-size:25px;'>&#128514;</span></option>
+				<!--Laugh emoji-->
+				<option <span style='font-size:25px;'>&#129505;</span></a></option>
+				<!--Heart emoji-->
+		</div>
+		<!--Ends emoji section-->
 
-		<form action="/campusevents" method="post"> <!-- This section will allow the user to post-->
+		<form action="/campusevents" method="post">
+			<!-- This section will allow the user to post-->
 
 
 			<h2>Share your thoughts about this post: </h2>
 			<input type="text" name="newPost">
 
-			<button type="submit" name="button">Post</button> <!--Button to post-->
+			<button type="submit" name="button">Post</button>
+			<!--Button to post-->
 			<br>
-		</form> <!--Ends the post response section-->
-		<p><img src="/images/Welcome.jpg" style="float:right;width:700px;height:300px;"> <!--The welcome image-->
+		</form>
+		<!--Ends the post response section-->
+		<p><img src="/images/Welcome.jpg" style="float:right;width:700px;height:300px;">
+			<!--The welcome image-->
 		</p>
 
 		<h2> How to manage our constant stress: </h2><!-- This section begins the next post about stress. -->
@@ -72,29 +89,43 @@
 
 		<h2>Share your thoughts about this post: </h2> <!-- This section begins the response to this post-->
 
-		<div class="dropdown"><!--Dropdown menu for emoji selection-->
+		<div class="dropdown">
+			<!--Dropdown menu for emoji selection-->
 			React to this post! Comment below and select an emoji!
 			<select name="React">
-				<option value=<span style='font-size:25px;'>&#128515;</span></option><!--Smile emoji-->
-				<option value=<span style='font-size:25px;'>&#128544;</span></option><!--Frown emoji-->
-				<option <span style='font-size:25px;'>&#128546;</span></option><!--Sad emoji-->
-				<option <span style='font-size:25px;'>&#128562;</span></option><!--Surprise emoji-->
-				<option <span style='font-size:25px;'>&#128514;</span></option><!--Laugh emoji-->
-				<option <span style='font-size:25px;'>&#129505;</span></a></option><!--Heart emoji-->
-		</div><!--Ends emoji section-->
-		<form action="/campusevents" method="post"> <!-- This section will allow the user to post-->
+				<option> <span style='font-size:25px;'>&#128515;</span></option>
+				<!--Smile emoji-->
+				<option><span style='font-size:25px;'>&#128544;</span></option>
+				<!--Frown emoji-->
+				<option><span style='font-size:25px;'>&#128546;</span></option>
+				<!--Sad emoji-->
+				<option> <span style='font-size:25px;'>&#128562;</span></option>
+				<!--Surprise emoji-->
+				<option> <span style='font-size:25px;'>&#128514;</span></option>
+				<!--Laugh emoji-->
+				<option> <span style='font-size:25px;'>&#129505;</span><!--</a>--></option>
+				<!--Heart emoji-->
+			</select>
+		</div>
+		<!--Ends emoji section-->
+		<form action="/campusevents" method="post">
+			<!-- This section will allow the user to post-->
 			<h2>Share your thoughts about this post: </h2>
 			<input type="text" name="newPost">
-			<button type="submit" name="button">Post</button> <!--Button to post-->
+			<button type="submit" name="button">Post</button>
+			<!--Button to post-->
 			<br>
-		</form> <!--Ends the post response section-->
+		</form>
+		<!--Ends the post response section-->
 		</script>
-		<p><img src="/images/Italy.jpg" style="float:right;width:1460px;height:400px;"> <!--Italy image-->
+		<p><img src="/images/Italy.jpg" style="float:right;width:1460px;height:400px;">
+			<!--Italy image-->
 		</p>
 		<p>
 			<br>
 		</p>
-		<h2> Travel to new places and study abroad: </h2> <!--This begins the next topic about studying abroad-->
+		<h2> Travel to new places and study abroad: </h2>
+		<!--This begins the next topic about studying abroad-->
 		<p>
 			Studying in another country is a beneficial and rewarding experience. Have you spent time abroad?
 			Tell us about it.
@@ -105,70 +136,97 @@
 		</p>
 		<h2>Share your thoughts about this post: </h2> <!-- This section begins the response to this post-->
 
-		<div class="dropdown"> <!--Dropdown menu for emoji selection-->
+		<div class="dropdown">
+			<!--Dropdown menu for emoji selection-->
 			React to this post! Comment below and select an emoji!
 			<select name="React">
-				<option value=<span style='font-size:25px;'>&#128515;</span></option><!--Smile emoji-->
-				<option value=<span style='font-size:25px;'>&#128544;</span></option><!--Frown emoji-->
-				<option <span style='font-size:25px;'>&#128546;</span></option><!--Sad emoji-->
-				<option <span style='font-size:25px;'>&#128562;</span></option><!--Surprise emoji-->
-				<option <span style='font-size:25px;'>&#128514;</span></option><!--Laugh emoji-->
-				<option <span style='font-size:25px;'>&#129505;</span></a></option><!--Heart emoji-->
-		</div><!--Ends emoji section-->
+				<option> <span style='font-size:25px;'>&#128515;</span></option>
+				<!--Smile emoji-->
+				<option><span style='font-size:25px;'>&#128544;</span></option>
+				<!--Frown emoji-->
+				<option><span style='font-size:25px;'>&#128546;</span></option>
+				<!--Sad emoji-->
+				<option> <span style='font-size:25px;'>&#128562;</span></option>
+				<!--Surprise emoji-->
+				<option> <span style='font-size:25px;'>&#128514;</span></option>
+				<!--Laugh emoji-->
+				<option> <span style='font-size:25px;'>&#129505;</span><!--</a>--></option>
+				<!--Heart emoji-->
+			</select>
+		</div>
+		<!--Ends emoji section-->
 
-		<form action="/campusevents" method="post"><!-- This section will allow the user to post-->
+		<form action="/campusevents" method="post">
+			<!-- This section will allow the user to post-->
 			<h2>Share your thoughts about this post: </h2>
 			<input type="text" name="newPost">
 
-			<button type="submit" name="button">Post</button> <!--Button to post-->
-		</textarea>
+			<button type="submit" name="button">Post</button>
+			<!--Button to post-->
+			</textarea>
 			<br>
-		</form> <!--Ends the post response section-->
+		</form>
+		<!--Ends the post response section-->
 
-		<p><img src="/images/Main_Campus.jpg" style="float:right;width:1460px;height:400px;"><!--Main campus image-->
+		<p><img src="/images/Main_Campus.jpg" style="float:right;width:1460px;height:400px;">
+			<!--Main campus image-->
 		</p>
 		<p>
 			<br>
 
-	</p>
 		</p>
-		<h1> You've seen a few posts. It's time to create your own post! </h1> <!-- This section allows the users to create their own post. -->
+		</p>
+		<h1> You've seen a few posts. It's time to create your own post! </h1>
+		<!-- This section allows the users to create their own post. -->
 		<p> Would you like to start a topic of conversation with your fellow Flyers? Why not lead the conversation?
-			Submit your post below:
+			Submit your post below: 
+		</p>
 
-			<div class="dropdown"><!--Dropdown menu for emoji selection-->
+			<div class="dropdown">
+				<!--Dropdown menu for emoji selection-->
 				Create a post below and select an emoji!
 
 				<select name="React">
-					<option value=<span style='font-size:25px;'>&#128515;</span></option><!--Smile emoji-->
-					<option value=<span style='font-size:25px;'>&#128544;</span></option><!--Frown emoji-->
-					<option <span style='font-size:25px;'>&#128546;</span></option><!--Sad emoji-->
-					<option <span style='font-size:25px;'>&#128562;</span></option><!--Surprise emoji-->
-					<option <span style='font-size:25px;'>&#128514;</span></option><!--Laugh emoji-->
-					<option <span style='font-size:25px;'>&#129505;</span></a></option><!--Heart emoji-->
+					<option> <span style='font-size:25px;'>&#128515;</span></option>
+					<!--Smile emoji-->
+					<option><span style='font-size:25px;'>&#128544;</span></option>
+					<!--Frown emoji-->
+					<option><span style='font-size:25px;'>&#128546;</span></option>
+					<!--Sad emoji-->
+					<option> <span style='font-size:25px;'>&#128562;</span></option>
+					<!--Surprise emoji-->
+					<option> <span style='font-size:25px;'>&#128514;</span></option>
+					<!--Laugh emoji-->
+					<option> <span style='font-size:25px;'>&#129505;</span><!--</a>--></option>
+					<!--Heart emoji-->
+				</select>
 			</div>
 
-			<form action="/campusevents" method="post"><!-- This section will allow the user to respond to the post-->
+			<form action="/campusevents" method="post">
+				<!-- This section will allow the user to respond to the post-->
 
-				<h2>Share your thoughts about this post: </h2>
-				<br>
+				<!-- <h2>Share your thoughts about this post: </h2>
+				<br> -->
 				<input type="text" name="newPost">
 
-				<button type="submit" name="button">Post</button><!--Button to post-->
+				<button type="submit" name="button">Post</button>
+				<!--Button to post-->
 
-				<p>
+				<!-- <p>
 					<br>
-				</p>
+				</p> -->
 
-			</form> <!--Ends the post response section-->
+			</form>
+			<!--Ends the post response section-->
 
 
 
-<% for(var i=0; i<postList.length; i++) { %>
-	<p> <%= postList[i] %> </p>
+			<% for(var i=0; i<postList.length; i++) { %>
+			<p> <%= postList[i] %> </p>
 
-<% } %>
-			<div class="footer"> <!--Footer section with inspirational quote-->
+			<% } %>
+			<div class="footer">
+				<!--Footer section with inspirational quote-->
 				"Deep conversations with the right people are priceless."
 			</div>
 </body>
