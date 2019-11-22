@@ -14,12 +14,20 @@ DROP TABLE IF EXISTS posts;
 
 DROP TABLE IF EXISTS currentEventPosts;
 
-CREATE TABLE IF NOT EXISTS currentEventPosts (postID INT PRIMARY KEY AUTO_INCREMENT, postTime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(), textOfPost VARCHAR(255));
+CREATE TABLE IF NOT EXISTS currentEventPosts (postID INT PRIMARY KEY AUTO_INCREMENT, postTime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(), textOfPost VARCHAR(255), qNum INT NOT NULL);
 
 DROP TABLE IF EXISTS campusEventPosts;
 
-CREATE TABLE IF NOT EXISTS campusEventPosts (postID INT PRIMARY KEY AUTO_INCREMENT, postTime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(), textOfPost VARCHAR(255));
+CREATE TABLE IF NOT EXISTS campusEventPosts (postID INT PRIMARY KEY AUTO_INCREMENT, postTime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(), textOfPost VARCHAR(255), qNum INT NOT NULL);
 
-INSERT INTO currentEventPosts (textOfPost) VALUES ("This is the discussion.");
+INSERT INTO currentEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 1);
 
-INSERT INTO campusEventPosts (textOfPost) VALUES ("This is the discussion.");
+INSERT INTO currentEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 2);
+
+INSERT INTO currentEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 3);
+
+INSERT INTO campusEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 1);
+
+INSERT INTO campusEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 2);
+
+INSERT INTO campusEventPosts (textOfPost, qNum) VALUES ("This is the discussion.", 3);
