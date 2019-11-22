@@ -37,7 +37,7 @@ var con = mysql.createConnection({
     test = String(result[0].textOfPost);
     //var gtg = String(result[0].textOfPost);
     //console.log(gtg + "what");
-  
+
     for(var i=0; i <result.length; i++)
     {
       posts.push(result[i].textOfPost);
