@@ -47,27 +47,30 @@
 		<!--Dropdown menu for emoji selection-->
 		React to this post! Comment below and select an emoji!
 		<select name="React">
-			<option value=<span style='font-size:25px;'>&#128515;</span></option>
+			<option> <span style='font-size:25px;'>&#128515;</span></option>
 			<!--Smile emoji-->
-			<option value=<span style='font-size:25px;'>&#128544;</span></option>
+			<option><span style='font-size:25px;'>&#128544;</span></option>
 			<!--Frown emoji-->
-			<option <span style='font-size:25px;'>&#128546;</span></option>
+			<option><span style='font-size:25px;'>&#128546;</span></option>
 			<!--Sad emoji-->
-			<option <span style='font-size:25px;'>&#128562;</span></option>
+			<option> <span style='font-size:25px;'>&#128562;</span></option>
 			<!--Surprise emoji-->
-			<option <span style='font-size:25px;'>&#128514;</span></option>
+			<option> <span style='font-size:25px;'>&#128514;</span></option>
 			<!--Laugh emoji-->
-			<option <span style='font-size:25px;'>&#129505;</span></a></option>
+			<option> <span style='font-size:25px;'>&#129505;</span>
+				<!--</a>-->
+			</option>
 			<!--Heart emoji-->
+		</select>
 	</div>
 	<!--Ends emoji section-->
 
-	<form action="/campusevents" method="post">
+	<form action="/campusevents1" method="post">
 		<!-- This section will allow the user to post-->
 
 
 		<h2>Share your thoughts about this post: </h2>
-		<input type="text" name="newPost">
+		<input type="text" name="newCampusPost1">
 
 		<button type="submit" name="button">Post</button>
 		<!--Button to post-->
@@ -78,8 +81,8 @@
 	<hr>
 	</hr>
 
-	<% for(var i=0; i<postList.length; i++) { %>
-	<p> <%= postList[i] %> </p>
+	<% for(var i=0; i<postList1.length; i++) { %>
+	<p> <%= postList1[i] %> </p>
 	<hr>
 	</hr>
 	<% } %>
@@ -121,10 +124,10 @@
 		</select>
 	</div>
 	<!--Ends emoji section-->
-	<form action="/campusevents" method="post">
+	<form action="/campusevents2" method="post">
 		<!-- This section will allow the user to post-->
 		<h2>Share your thoughts about this post: </h2>
-		<input type="text" name="newPost">
+		<input type="text" name="newCampusPost2">
 		<button type="submit" name="button">Post</button>
 		<!--Button to post-->
 		<br>
@@ -133,8 +136,8 @@
 	<hr>
 	</hr>
 
-	<% for(var i=0; i<postList.length; i++) { %>
-	<p> <%= postList[i] %> </p>
+	<% for(var i=0; i<postList2.length; i++) { %>
+	<p> <%= postList2[i] %> </p>
 	<hr>
 	</hr>
 	<% } %>
@@ -181,10 +184,10 @@
 	</div>
 	<!--Ends emoji section-->
 
-	<form action="/campusevents" method="post">
+	<form action="/campusevents3" method="post">
 		<!-- This section will allow the user to post-->
 		<h2>Share your thoughts about this post: </h2>
-		<input type="text" name="newPost">
+		<input type="text" name="newCampusPost3">
 
 		<button type="submit" name="button">Post</button>
 		<!--Button to post-->
@@ -197,8 +200,8 @@
 	<!--Ends the post response section-->
 
 
-	<% for(var i=0; i<postList.length; i++) { %>
-	<p> <%= postList[i] %> </p>
+	<% for(var i=0; i<postList3.length; i++) { %>
+	<p> <%= postList3[i] %> </p>
 	<hr>
 	</hr>
 	<% } %>
@@ -208,65 +211,62 @@
 	<!--
 	<p><img src="/images/Main_Campus.jpg" style="float:right;width:1460px;height:400px;">
 	</p>
-		<!--Main campus image-->
+		<!-Main campus image-->
 	<!--</p>
 	<p>
 		<br>
 
 	</p>
 	</p>
-	<!--
+	<!-
 	<h1> You've seen a few posts. It's time to create your own post! </h1>
-	<!-- This section allows the users to create their own post. -->
+	<!- This section allows the users to create their own post. -->
 	<!--<p> Would you like to start a topic of conversation with your fellow Flyers? Why not lead the conversation?
 		Submit your post below:
 	</p>
 
 	<div class="dropdown">
-		<!--Dropdown menu for emoji selection-->
+		<!-Dropdown menu for emoji selection-->
 	<!--Create a post below and select an emoji!
 
 		<select name="React">
 			<option> <span style='font-size:25px;'>&#128515;</span></option>
-			<!--Smile emoji-->
+			<!-Smile emoji-->
 	<!--<option><span style='font-size:25px;'>&#128544;</span></option>
-			<!--Frown emoji-->
+			<!-Frown emoji-->
 	<!--<option><span style='font-size:25px;'>&#128546;</span></option>
-			<!--Sad emoji-->
+			<!-Sad emoji-->
 	<!--<option> <span style='font-size:25px;'>&#128562;</span></option>
-			<!--Surprise emoji-->
+			<!-Surprise emoji-->
 	<!--<option> <span style='font-size:25px;'>&#128514;</span></option>
-			<!--Laugh emoji-->
+			<!-Laugh emoji-->
 	<!--<option> <span style='font-size:25px;'>&#129505;</span>
-				<!--</a>-->
+				<!-</a>-->
 	<!--	</option>
-			<!--Heart emoji-->
+			<!-Heart emoji-->
 	<!--</select>
 	</div>
 
 	<form action="/campusevents" method="post">
-		<!-- This section will allow the user to respond to the post-->
+		<!- This section will allow the user to respond to the post-->
 
 	<!-- <h2>Share your thoughts about this post: </h2>
 				<br> -->
 	<!--<input type="text" name="newPost">
 
 		<button type="submit" name="button">Post</button>
-		<!--Button to post-->
+		<!-Button to post-->
 
 	<!-- <p>
 					<br>
 				</p> -->
 
 	<!--	</form>
-	<!--Ends the post response section-->
+	<!-Ends the post response section-->
 	<!--<h2>Responses to this post:</h2>
 <hr></hr>
 
-	<% for(var i=0; i<postList.length; i++) { %>
-	<p> <%= postList[i] %> </p>
 
-	<% } %>
 -->
 	<div class="footer">
 		<!--Footer section with inspirational quote-->
