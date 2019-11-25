@@ -11,18 +11,19 @@
 	<head>
 	</head>
 
-<body>
+<body class="mainright">
 	<div class="header">
 		<!--Headline for the current events page-->
 		Current events
 	</div>
 
-	<div class="mainright">
+	<!--<div class="mainright"> -->
 		<p>
 			<br>
 		</p>
 		<h1> Let's discuss the world around us! </h1>
-		<p> Many topics concern us Flyers! Please comment on a post or start a new one. Discuss any local, state, national, or global issue.
+		<p> Many topics concern us Flyers! Please comment on a post or start a new one. Discuss any local, state,
+			national, or global issue.
 		</p>
 		<p><img src="/images/White_House.jpg" style="float:right;width:1460px;height:500px;">
 			<!--White House image-->
@@ -30,10 +31,14 @@
 		<h1> Existing posts: </h1> <!-- This section begins the existing posts-->
 		<h2> Election season will soon be upon us: </h2><!-- The first post discusses the election-->
 		<p>
-			The presedential election is coming up in November 2020. There are a number of candidates with different viewpoints. Which candidate do you support?
-			Why? Which issues are the most important to you this election? What changes would you like to see in the political landscape?
-			Would you like to see how your favorite candidate has voted on certain issues? What about the candidates for Senate or the House of Representatives?
+			The presedential election is coming up in November 2020. There are a number of candidates with different
+			viewpoints. Which candidate do you support?
+			Why? Which issues are the most important to you this election? What changes would you like to see in the
+			political landscape?
+			Would you like to see how your favorite candidate has voted on certain issues? What about the candidates for
+			Senate or the House of Representatives?
 			Take a look at <a href="https://votesmart.org/">Vote Smart</a> to find out more.
+		</p>
 
 
 			<h2>Share your thoughts about this post: </h2>
@@ -43,34 +48,45 @@
 				<!--Dropdown menu for emoji selection-->
 				React to this post! Comment below and select an emoji!
 				<select name="React">
-					<option <span style='font-size:25px;'>&#128515;</span></option>
+					<option> <span style='font-size:25px;'>&#128515;</span></option>
 					<!--Smile emoji-->
-					<option <span style='font-size:25px;'>&#128544;</span></option>
+					<option><span style='font-size:25px;'>&#128544;</span></option>
 					<!--Frown emoji-->
-					<option <span style='font-size:25px;'>&#128546;</span></option>
+					<option><span style='font-size:25px;'>&#128546;</span></option>
 					<!--Sad emoji-->
-					<option <span style='font-size:25px;'>&#128562;</span></option>
+					<option> <span style='font-size:25px;'>&#128562;</span></option>
 					<!--Surprise emoji-->
-					<option <span style='font-size:25px;'>&#128514;</span></option>
+					<option> <span style='font-size:25px;'>&#128514;</span></option>
 					<!--Laugh emoji-->
-					<option <span style='font-size:25px;'>&#129505;</span></a></option>
+					<option> <span style='font-size:25px;'>&#129505;</span>
+						<!--</a>-->
+					</option>
 					<!--Heart emoji-->
+				</select>
 			</div>
+			<!--Ends emoji section-->
 
-			<form action="/campusevents" method="post">
+			<form action="/currentevents1" method="post">
 				<!-- This section will allow the user to post-->
-				<input type="text" name="newPost">
-
+				<h2>Share your thoughts about this post: </h2>
+				<input type="text" name="newCurrentPost1">
+		
 				<button type="submit" name="button">Post</button>
 				<!--Button to post-->
-
-
+				</textarea>
 				<br>
-
 			</form>
-
+			<h2>Responses to this post:</h2>
 			<hr>
 			</hr>
+			<!--Ends the post response section-->
+		
+		
+			<% for(var i=0; i<postList1.length; i++) { %>
+			<p> <%= postList1[i] %> </p>
+			<hr>
+			</hr>
+			<% } %>
 
 			<!--Ends the post response section-->
 			<p><img src="/images/Debt.jpg" style="float:right;width:650px;height:240px;"></p>
@@ -88,31 +104,45 @@
 				<!--Dropdown menu for emoji selection-->
 				React to this post! Comment below and select an emoji!
 				<select name="React">
-					<option <span style='font-size:25px;'>&#128515;</span></option>
+					<option> <span style='font-size:25px;'>&#128515;</span></option>
 					<!--Smile emoji-->
-					<option <span style='font-size:25px;'>&#128544;</span></option>
+					<option><span style='font-size:25px;'>&#128544;</span></option>
 					<!--Frown emoji-->
-					<option <span style='font-size:25px;'>&#128546;</span></option>
+					<option><span style='font-size:25px;'>&#128546;</span></option>
 					<!--Sad emoji-->
-					<option <span style='font-size:25px;'>&#128562;</span></option>
+					<option> <span style='font-size:25px;'>&#128562;</span></option>
 					<!--Surprise emoji-->
-					<option <span style='font-size:25px;'>&#128514;</span></option>
+					<option> <span style='font-size:25px;'>&#128514;</span></option>
 					<!--Laugh emoji-->
-					<option <span style='font-size:25px;'>&#129505;</span></a></option>
+					<option> <span style='font-size:25px;'>&#129505;</span>
+						<!--</a>-->
+					</option>
 					<!--Heart emoji-->
-				</select </div> <form action="/campusevents" method="post">
+				</select>
+			</div>
+			<!--Ends emoji section--> 
+				
+			<form action="/currentevents2" method="post">
 				<!-- This section will allow the user to post-->
-				<input type="text" name="newPost">
-
+				<h2>Share your thoughts about this post: </h2>
+				<input type="text" name="newCurrentPost2">
+		
 				<button type="submit" name="button">Post</button>
 				<!--Button to post-->
-
+				</textarea>
 				<br>
-
-				</form>
-
-				<hr>
-				</hr>
+			</form>
+			<h2>Responses to this post:</h2>
+			<hr>
+			</hr>
+			<!--Ends the post response section-->
+		
+		
+			<% for(var i=0; i<postList2.length; i++) { %>
+			<p> <%= postList2[i] %> </p>
+			<hr>
+			</hr>
+			<% } %>
 
 				<p><img src="/images/United_Nations.jpg" style="float:right;width:1460px;height:500px;"></p>
 				<!--United Nations image-->
@@ -122,8 +152,10 @@
 					<!--Post about the United Nations-->
 					In the United Nations representatives of countries discuss glocal issues of concern.
 					Some of these topics are very difficult to discuss, especially issues of war and peace.
-					The United Nations serves to keep international security and peace. Additionally, the United Nations serves to protect human rights,
-					and give out humanitarian aid. What international issues concern you? What do you think can be done to solve these issues?
+					The United Nations serves to keep international security and peace. Additionally, the United Nations
+					serves to protect human rights,
+					and give out humanitarian aid. What international issues concern you? What do you think can be done
+					to solve these issues?
 					Please discuss.
 				</p>
 				<h2>Share your thoughts about this post: </h2> <!-- This section begins the response to this post-->
@@ -131,70 +163,80 @@
 					<!--Dropdown menu for emoji selection-->
 					React to this post! Comment below and select an emoji!
 					<select name="React">
-						<option <span style='font-size:25px;'>&#128515;</span></option>
+						<option> <span style='font-size:25px;'>&#128515;</span></option>
 						<!--Smile emoji-->
-						<option <span style='font-size:25px;'>&#128544;</span></option>
+						<option><span style='font-size:25px;'>&#128544;</span></option>
 						<!--Frown emoji-->
-						<option <span style='font-size:25px;'>&#128546;</span></option>
+						<option><span style='font-size:25px;'>&#128546;</span></option>
 						<!--Sad emoji-->
-						<option <span style='font-size:25px;'>&#128562;</span></option>
+						<option> <span style='font-size:25px;'>&#128562;</span></option>
 						<!--Surprise emoji-->
-						<option <span style='font-size:25px;'>&#128514;</span></option>
+						<option> <span style='font-size:25px;'>&#128514;</span></option>
 						<!--Laugh emoji-->
-						<option <span style='font-size:25px;'>&#129505;</span></a></option>
+						<option> <span style='font-size:25px;'>&#129505;</span>
+							<!--</a>-->
+						</option>
 						<!--Heart emoji-->
 					</select>
 				</div>
+				<!--Ends emoji section-->
 
-				<form action="/campusevents" method="post">
+				<form action="/currentevents3" method="post">
 					<!-- This section will allow the user to post-->
-
-					<input type="text" name="newPost">
-
+					<h2>Share your thoughts about this post: </h2>
+					<input type="text" name="newCurrentPost3">
+			
 					<button type="submit" name="button">Post</button>
-
-
-
 					<!--Button to post-->
+					</textarea>
+					<br>
 				</form>
-
+				<h2>Responses to this post:</h2>
 				<hr>
 				</hr>
+				<!--Ends the post response section-->
+			
+			
+				<% for(var i=0; i<postList3.length; i++) { %>
+				<p> <%= postList3[i] %> </p>
+				<hr>
+				</hr>
+				<% } %>
 
 				<!--
 					<br>
 					</form>
 
 					<p><img src="/images/Switzerland.jpg" style="float:right;width:1460px;height:500px;"></p>
-					<!--Switzerland image-->
+					<!-Switzerland image-->
 				<!--				<h1>You've seen a few posts. It's time to create your own! </h1>
-					<!--Create your own post section begins-->
+					<!-Create your own post section begins-->
 				<!--				<div class="dropdown">
 						Create a post below and select an emoji!
 						<select name="React">
 							<option value=<span style='font-size:25px;'>&#128515;</span></option>
-							<!--Smile emoji-->
+							<!-Smile emoji-->
 				<!--							<option value=<span style='font-size:25px;'>&#128544;</span></option>
-							<!--Frown emoji-->
+							<!-Frown emoji-->
 				<!--							<option <span style='font-size:25px;'>&#128546;</span></option>
-							<!--Sad emoji-->
+							<!-Sad emoji-->
 				<!--							<option <span style='font-size:25px;'>&#128562;</span></option>
-							<!--Surprise emoji-->
-				<!--							<!--Laugh emoji-->
+							<!-Surprise emoji-->
+				<!--							<!-Laugh emoji-->
 				<!--							<option <span style='font-size:25px;'>&#129505;</span></a></option>
-							<!--Heart emoji-->
+							<!-Heart emoji-->
 				<!--						</select>
 						</div>
 
 							<form action="/campusevents" method="post">
-								<!-- This section will allow the user to post-->
+								<!- This section will allow the user to post-->
 
 				<!--							<br>
 
 								<input type="text" name="newPost">
 
 								<button type="submit" name="button">Post</button>
-								<!--Button to post-->
+								<!-Button to post-->
 				<!--						</form>-->
 				<p>
 					<br>
