@@ -28,4 +28,6 @@ In addition, the website for the Flyer View has a home page, a campus events pag
 
 For the home page, please disable the ad blocker in order to view the embedded Twitter posts.
 
+The design was set for a screen size resolution of 1366 x 768. 
+
 TM2FA19-3
