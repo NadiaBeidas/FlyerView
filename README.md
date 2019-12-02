@@ -6,8 +6,8 @@ Go to your directory,
 git clone https://github.com/NadiaBeidas/FlyerView.git
 
 This project used to be up-to-date on Heroku at: https://flyer-view.herokuapp.com/
-However, we decided to make our database local because the Heroku database could potentially charge us and this is only a class project.
-transitioning to a non-local databse would be easy though.
+However, we decided to make our database local because the Heroku database could potentially charge us.
+As a result, we transition to a non-local database.
 
 View the project:
     install npm
